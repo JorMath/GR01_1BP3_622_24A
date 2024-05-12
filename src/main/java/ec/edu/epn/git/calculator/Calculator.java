@@ -15,6 +15,9 @@ public class Calculator {
     public double division(int a, int b) {
         return a / b;
     }
+    public int power(int a, int b) {
+        return (int) Math.pow(a,b);
+    }
 
     public void timeout(int time) {
         try {

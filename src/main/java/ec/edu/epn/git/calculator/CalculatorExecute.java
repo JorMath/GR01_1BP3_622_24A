@@ -13,6 +13,10 @@ public class CalculatorExecute {
 
         System.out.println("== It is a change !! ==");
         System.out.println("== It is a new change !! ==");
-
+        System.out.println("Grupo 01 Metodologías Ágiles");
+        int power = c.power(2,3);
+        System.out.println("c.power(2,3) = " + power);
+        System.out.println("Ultimo cambio");
     }
+
 }
