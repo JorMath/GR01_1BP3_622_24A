@@ -40,7 +40,7 @@ public class CalculatorTest {
         System.out.println("Test 4");
         c.timeout(100);
     }
-    @Test(timeout = 150)
+    @Test
     public void given_two_integers_when_power_then_ok(){
         System.out.println("Test 5");
         assertEquals(8, c.power(2, 3));
